@@ -1,0 +1,8 @@
+### GET request to example server
+GET http://localhost:8000/students
+
+###
+GET http://localhost:8000/subjects
+
+###
+http://ec2-13-60-14-29.eu-north-1.compute.amazonaws.com:8080/subjects

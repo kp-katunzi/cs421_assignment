@@ -99,3 +99,56 @@ CREATE DATABASE ap_db;
 CREATE USER 'api_user'@'localhost' IDENTIFIED BY 'secure_password';
 GRANT ALL PRIVILEGES ON university_db.* TO 'api_user'@'localhost';
 FLUSH PRIVILEGES;
+
+## Data backup
+DATA BACKUP is the process of creating the copy of data to protect against the data loss.
+This can be due to various reasons such as hardware failure, cyberattacks, accidental deletions, or natural disasters. Implementing a robust data backup strategy is crucial for ensuring data protection and disaster recovery. Different types of data backup methods, such as full, incremental, differential, and hybrid backups, offer various advantages and disadvantages.
+
+1. 	Full Backup Method
+A full backup is the most straightforward and comprehensive method of data backup. It involves copying all the data from a source to a backup medium, creating a complete replica each time a backup is performed.
+Advantages:
+ -	Comprehensive Protection 
+ Full backups provide a complete snapshot of your data, making   recovery straightforward.
+ -	Simplified Restoration 
+ Restoring from a full backup is efficient, as it requires only the latest backup file.
+
+Disadvantages:
+ -	High Storage Needs 
+    Full backups require considerable storage space because they duplicate all data with each backup.
+ -	Time-Consuming:
+    Executing a full backup can be time-intensive, especially for large data sets.
+
+Full backups are essential for creating a complete, reliable copy of your data, but due to their storage and time demands, they are often scheduled less frequently in backup routines.
+
+2.	Incremental Backup
+Incremental backups are more efficient than full backups. They save only the data that has changed since the last backup—whether it was a full or incremental backup. This method involves backing up all the files that have changed since the last backup. Tracking the last incremental backup is crucial to ensure efficient data backup and restoration processes.
+
+Advantages:
+ -	Storage Efficiency 
+     Incremental backups use less storage space since they only save changes made after the last backup.
+ - Faster Backup Process
+   These backups are quicker because they involve less data.
+Disadvantages:
+ -	Complex Restoration
+     Restoring requires the last full backup and all subsequent incremental backups, which can be complex and time-consuming.
+-	Higher Risk of Data Loss
+   If one incremental backup is corrupted or missing, all subsequent backups could be rendered useless.
+
+Incremental backups are well-suited for environments with frequent data changes, where efficient storage utilization is essential.
+
+3.	Differential Backup
+Types of backup include full, incremental, and differential backups, each with unique implications for data security, restoration times, and storage requirements.
+Differential backups provide a balance between full and incremental backups by saving all data that has changed since the last full backup. Unlike incremental backups, differential backups do not reset after each backup, causing them to increase in size as more data is modified
+
+Advantages:
+ -	Simplified Restoration 
+      Only the last full backup and the most recent differential backup are needed for restoration, simplifying the process compared to incremental backups.
+ -	Less Storage Than Full Backups:
+      While larger than incremental backups, differential backups require less storage than performing a full backup each time.
+Disadvantages:
+ -	Growing Size
+      As differential backups accumulate data, they become progressively larger, eventually nearing the size of a full backup.
+
+Differential backups are commonly used to balance the storage and restoration needs, making them a practical choice for regular backups between full backups.
+
+

@@ -1,4 +1,4 @@
-CREATE DATABASE university_db;
+CREATE DATABASE api_db;
 
 CREATE TABLE programs (
       id INT AUTO_INCREMENT PRIMARY KEY,

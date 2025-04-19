@@ -4,7 +4,7 @@
 ## Format: Hostname, Date&Time, CPU%, Mem% and Disk%
 
 # === Configuration ===
-LOG_FILE="/var/www/html/cs421_assignment/bash_scripts/server_health.log"
+LOG_FILE="/var/log/server_health.log"
 API_BASE_URL="http://16.16.28.140:8000"
 STUDENTS_ENDPOINT="$API_BASE_URL/students"
 SUBJECTS_ENDPOINT="$API_BASE_URL/subjects"

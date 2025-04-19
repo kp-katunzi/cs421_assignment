@@ -1,7 +1,7 @@
 <?php
 return [
     'host' => 'localhost',
-    'username' => 'root',
+    'username' => 'user',
     'password' => 'Aaronpaul@100',
     'database' => 'api_db',
     'charset' => 'utf8mb4'

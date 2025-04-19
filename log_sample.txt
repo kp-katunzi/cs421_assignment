@@ -1,0 +1,35 @@
+
+=== /var/log/server_health.log ===
+
+Server Health Report - 2025-04-18 22:19:59
+-----------------------------------------------------------
+Hostname             : ip-172-31-18-186
+CPU Usage            : 4.80%
+Memory Usage         : 82.02%
+Disk Usage           : 42% (OK)
+Apache Server        : ✅ Running
+/students Endpoint   : ✅ 200 OK
+/subjects Endpoint   : ✅ 200 OK
+-----------------------------------------------------------
+
+Server Health Report - 2025-04-19 17:26:21
+-----------------------------------------------------------
+Hostname             : ip-172-31-18-186
+CPU Usage            : 100.00%
+Memory Usage         : 81.89%
+Disk Usage           : 42% (OK)
+Apache Server        : ✅ Running
+/students Endpoint   : ✅ 200 OK
+/subjects Endpoint   : ✅ 200 OK
+-----------------------------------------------------------
+
+=== /var/log/backup.log ===
+
+2025-04-19 17:26:21 - Old backups deleted successfully.
+2025-04-19 17:26:21 - Backup script completed.
+
+
+ === /var/log/backup.log ===3
+2025-04-19 17:26:29 - Web server restarted successfully.
+2025-04-19 17:26:29 - === Server update completed successfully ===
+

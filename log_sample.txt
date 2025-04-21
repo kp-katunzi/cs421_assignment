@@ -25,11 +25,35 @@ Apache Server        : ✅ Running
 
 === /var/log/backup.log ===
 
-2025-04-19 17:26:21 - Old backups deleted successfully.
-2025-04-19 17:26:21 - Backup script completed.
+2025-04-19 16:53:50 - API project backup successful: api_backup_2025-04-19.tar.gz
+2025-04-19 16:53:50 - MySQL database backup successful: db_backup_2025-04-19.sql
+2025-04-19 16:53:50 - Old backups deleted successfully.
+2025-04-19 16:53:50 - Backup script completed.
+2025-04-19 17:18:33 - Starting API project backup...
+2025-04-19 17:18:33 - API project backup successful: api_backup_2025-04-19.tar.gz
+2025-04-19 17:18:33 - Starting MySQL database backup...
+2025-04-19 17:18:33 - MySQL database backup successful: db_backup_2025-04-19.sql
+2025-04-19 17:18:33 - Cleaning up old backups...
+2025-04-19 17:18:33 - Old backups deleted successfully.
+2025-04-19 17:18:33 - Backup script completed.
 
 
- === /var/log/backup.log ===3
+ === /var/log/update.log ===
+ 
+2025-04-18 23:00:52 - === Starting server update ===
+2025-04-18 23:00:52 - Updating package list and upgrading packages...
+2025-04-18 23:00:55 - System packages updated successfully.
+2025-04-18 23:00:55 - Pulling latest changes from GitHub...
+2025-04-18 23:00:56 - Git pull successful.
+2025-04-18 23:00:56 - Restarting web server: apache2...
+2025-04-18 23:00:56 - Web server restarted successfully.
+2025-04-18 23:00:56 - === Server update completed successfully ===
+2025-04-19 17:26:21 - === Starting server update ===
+2025-04-19 17:26:21 - Updating package list and upgrading packages...
+2025-04-19 17:26:28 - System packages updated successfully.
+2025-04-19 17:26:28 - Pulling latest changes from GitHub...
+2025-04-19 17:26:29 - Git pull successful.
+2025-04-19 17:26:29 - Restarting web server: apache2...
 2025-04-19 17:26:29 - Web server restarted successfully.
 2025-04-19 17:26:29 - === Server update completed successfully ===
 

@@ -5,7 +5,6 @@
 ![MySQL Version](https://img.shields.io/badge/MySQL-5.7%2B-orange)
 ![Backup Status](https://img.shields.io/badge/Backup-Automated-brightgreen)
 ![Script Status](https://img.shields.io/badge/Script-Working-success)
-![License](https://img.shields.io/badge/License-MIT-blue)
 
 
 

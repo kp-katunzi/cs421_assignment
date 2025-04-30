@@ -1,29 +1,25 @@
-
-=== /var/log/server_health.log ===
+/var/log/server_health.log 
 
 Server Health Report - 2025-04-18 22:19:59
------------------------------------------------------------
 Hostname             : ip-172-31-18-186
 CPU Usage            : 4.80%
 Memory Usage         : 82.02%
 Disk Usage           : 42% (OK)
-Apache Server        : ✅ Running
-/students Endpoint   : ✅ 200 OK
-/subjects Endpoint   : ✅ 200 OK
------------------------------------------------------------
+Apache Server        : Running
+/students Endpoint   :  200 OK
+/subjects Endpoint   :  200 OK
+
 
 Server Health Report - 2025-04-19 17:26:21
------------------------------------------------------------
 Hostname             : ip-172-31-18-186
 CPU Usage            : 100.00%
 Memory Usage         : 81.89%
 Disk Usage           : 42% (OK)
-Apache Server        : ✅ Running
-/students Endpoint   : ✅ 200 OK
-/subjects Endpoint   : ✅ 200 OK
------------------------------------------------------------
+Apache Server        : Running
+/students Endpoint   : 200 OK
+/subjects Endpoint   :  200 OK
 
-=== /var/log/backup.log ===
+ /var/log/backup.log 
 
 2025-04-19 16:53:50 - API project backup successful: api_backup_2025-04-19.tar.gz
 2025-04-19 16:53:50 - MySQL database backup successful: db_backup_2025-04-19.sql
@@ -38,22 +34,22 @@ Apache Server        : ✅ Running
 2025-04-19 17:18:33 - Backup script completed.
 
 
- === /var/log/update.log ===
+ /var/log/update.log 
  
-2025-04-18 23:00:52 - === Starting server update ===
+2025-04-18 23:00:52 -  Starting server update 
 2025-04-18 23:00:52 - Updating package list and upgrading packages...
 2025-04-18 23:00:55 - System packages updated successfully.
 2025-04-18 23:00:55 - Pulling latest changes from GitHub...
 2025-04-18 23:00:56 - Git pull successful.
 2025-04-18 23:00:56 - Restarting web server: apache2...
 2025-04-18 23:00:56 - Web server restarted successfully.
-2025-04-18 23:00:56 - === Server update completed successfully ===
-2025-04-19 17:26:21 - === Starting server update ===
+2025-04-18 23:00:56 - Server update completed successfully 
+2025-04-19 17:26:21 - Starting server update
 2025-04-19 17:26:21 - Updating package list and upgrading packages...
 2025-04-19 17:26:28 - System packages updated successfully.
 2025-04-19 17:26:28 - Pulling latest changes from GitHub...
 2025-04-19 17:26:29 - Git pull successful.
 2025-04-19 17:26:29 - Restarting web server: apache2...
 2025-04-19 17:26:29 - Web server restarted successfully.
-2025-04-19 17:26:29 - === Server update completed successfully ===
+2025-04-19 17:26:29 -  Server update completed successfully 
 
